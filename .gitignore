@@ -1,0 +1,10 @@
+*.zip
+Lectures
+*.out
+build
+data
+*.so
+*.dylib
+*.json
+*.a
+*.pgm
