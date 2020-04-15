@@ -11,7 +11,7 @@ int main()
 {
     cout << "welcome, testing read and write functionalities:" << endl;
     std::string s = "data/lena.ascii.pgm";
-    Image img = Image();
+    Image img = Image(100,100);
 
     bool ret = img.FillFromPgm(s);
     img.WriteToPgm("data/expt1.pgm");

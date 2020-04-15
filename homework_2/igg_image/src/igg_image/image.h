@@ -18,10 +18,7 @@ class Image {
   int rows() const {return rows_;}  // const correctness
   int cols() const {return cols_;}
 
-  // // Setter functions for image size
-  // int rows() {return rows_;}
-  // int cols() {return cols_};
-
+  int data_size() const {return data_.size();} 
 
   // getter function for pixel value
   const int& at(int r, int c) const;
